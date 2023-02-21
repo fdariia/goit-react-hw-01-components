@@ -1,0 +1,39 @@
+span{
+    display: block;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    color: gray;
+}
+
+.avatar {
+    width: 200px;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.item {
+    background-color: gray;
+    color: white;
+    padding: 15px;
+    min-width: 70px;
+    border: 1px solid white;
+}
