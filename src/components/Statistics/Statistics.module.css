@@ -1,0 +1,25 @@
+.statistics {
+  width: 360px;
+  margin: auto;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.title {
+  text-transform: uppercase;
+  border-top: 2px solid rgb(23, 114, 144);
+  border-left: 2px solid rgb(23, 114, 144);
+  border-right: 2px solid rgb(23, 114, 144);
+}
+
+.statList {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(23, 114, 144);
+}
+
+.item {
+  padding: 15px;
+  width: 100%;
+  border: 1px solid rgb(23, 114, 144);
+}
