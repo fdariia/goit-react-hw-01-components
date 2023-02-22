@@ -1,0 +1,35 @@
+.friendList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 360px;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  margin-top: 80px;
+  border: 2px solid rgb(23, 114, 144);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+  border: 2px solid rgb(23, 114, 144);
+}
+
+.status {
+  margin-left: 20px;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.true {
+  background-color: green;
+}
+
+.false {
+  background-color: red;
+}
