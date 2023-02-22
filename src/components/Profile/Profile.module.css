@@ -1,39 +1,36 @@
-span{
-    display: block;
+span {
+  display: block;
 }
 
 .profile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
+  width: 360px;
+  text-align: center;
+  margin: auto;
+  border: 1px solid rgb(23, 114, 144);
 }
 
 .description {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
-    color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  color: rgb(23, 114, 144);
 }
 
 .avatar {
-    width: 200px;
+  width: 200px;
 }
 
 .stats {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(23, 114, 144);
 }
 
 .item {
-    background-color: gray;
-    color: white;
-    padding: 15px;
-    min-width: 70px;
-    border: 1px solid white;
+  color: white;
+  padding: 15px;
 }
